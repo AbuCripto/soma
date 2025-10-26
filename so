@@ -1,0 +1,16 @@
+# simples_soma.py
+
+def soma(a, b):
+    """Retorna a soma de dois números."""
+    return a + b
+
+def main():
+    print("Programa de soma simples")
+    x = float(input("Digite o primeiro número: "))
+    y = float(input("Digite o segundo número: "))
+    
+    resultado = soma(x, y)
+    print(f"A soma de {x} + {y} é {resultado}")
+
+if __name__ == "__main__":
+    main()

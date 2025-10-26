@@ -1,0 +1,21 @@
+# soma_com_nomes.py
+
+def soma(a, b):
+    """Retorna a soma de dois números."""
+    return a + b
+
+def main():
+    print("Programa de soma com nomes")
+    
+    nome1 = input("Digite o nome da primeira pessoa: ")
+    numero1 = float(input(f"Digite o número de {nome1}: "))
+    
+    nome2 = input("Digite o nome da segunda pessoa: ")
+    numero2 = float(input(f"Digite o número de {nome2}: "))
+    
+    resultado = soma(numero1, numero2)
+    
+    print(f"{nome1} ({numero1}) + {nome2} ({numero2}) = {resultado}")
+
+if __name__ == "__main__":
+    main()
